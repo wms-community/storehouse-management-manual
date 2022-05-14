@@ -3,7 +3,6 @@ evergreen = true
 
 [locales]
 '/' = { lang = 'zh-CN', title = 'Storehouse Management 用户手册' }
-'/en-us/' = { lang = 'en-US', title = 'Storehouse Management Manual' }
 
 [themeConfig]
 repo = 'wms-community/storehouse-management-manual'
@@ -21,20 +20,8 @@ lastUpdated = '最后更新'
 [[themeConfig.locales.'/'.nav]]
 text = 'Storehouse Management'
 link = '/'
-[[themeConfig.locales.'/'.nav]]
-text = 'API'
-link = '/api/'
 
 [themeConfig.locales.'/'.sidebar]
-'/api/' = [
-  '/api/basis',
-  '/api/oauth',
-  '/api/auth',
-  '/api/user',
-  '/api/players',
-  '/api/closet',
-  '/api/avatars-and-previews',
-]
 '/' = [
   '/setup',
   '/faq',
@@ -49,14 +36,4 @@ link = '/api/'
   '/oauth',
   '/ucenter',
   '/flarum',
-]
-
-[themeConfig.locales.'/en-us/']
-selectText = 'Languages'
-label = 'English'
-docsDir = 'man/en-us'
-editLinkText = 'Edit this page on GitHub'
-lastUpdated = 'Last Updated'
-sidebar = [
-  '/en-us/setup',
 ]
