@@ -27,35 +27,22 @@ link = '/api/'
 
 [themeConfig.locales.'/'.sidebar]
 '/api/' = [
-  '/api/basis',
-  '/api/oauth',
-  '/api/auth',
-  '/api/user',
-  '/api/players',
-  '/api/closet',
-  '/api/avatars-and-previews',
+  '/api/buding',
 ]
 '/' = [
   '/setup',
   '/faq',
   '/report',
-  '/mod',
+  '/dir',
   '/env',
   '/build',
   '/versions',
   '/upgrade-guide',
   '/change-log',
-  '/ui-text',
   '/update-sources',
   '/cdn',
+  '/ucenter',
   '/oauth',
-  '/flarum',
-  '/artisan-cli',
-  '/web-cli',
-  '/search-syntax',
-  '/css-js',
-  '/bench',
-  '/v5-release-note',
 ]
 
 [themeConfig.locales.'/en/']
@@ -67,10 +54,11 @@ lastUpdated = 'Last Updated'
 sidebar = [
   '/en/setup',
   '/en/faq',
-  '/en/mod',
+  '/en/report',
+  '/en/dir',
   '/en/build',
   '/en/upgrade-guide',
   '/en/change-log',
   '/en/versions',
-  '/en/flarum',
+  '/en/ucenter',
 ]
