@@ -2,7 +2,7 @@ title = 'Storehouse Management 用户手册'
 evergreen = true
 
 [locales]
-'/' = { lang = 'zh-CN', title = 'Storehouse Management 用户手册' }
+'/zh-cn/' = { lang = 'zh-CN', title = 'Storehouse Management 用户手册' }
 '/en-us/' = { lang = 'en-US', title = 'Storehouse Management Manual' }
 
 [themeConfig]
@@ -26,23 +26,8 @@ text = 'Web API'
 link = '/api/'
 
 [themeConfig.locales.'/'.sidebar]
-'/api/' = [
-  '/api/bilding',
-]
 '/' = [
-  '/setup',
-  '/faq',
-  '/report',
-  '/dir',
-  '/env',
-  '/build',
-  '/versions',
-  '/upgrade-guide',
-  '/change-log',
-  '/update-sources',
-  '/cdn',
-  '/ucenter',
-  '/oauth',
+  '/',
 ]
 
 [themeConfig.locales.'/en/']
