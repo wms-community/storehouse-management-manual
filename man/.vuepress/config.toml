@@ -27,7 +27,7 @@ link = '/api/'
 
 [themeConfig.locales.'/'.sidebar]
 '/api/' = [
-  '/api/buding',
+  '/api/bilding',
 ]
 '/' = [
   '/setup',
