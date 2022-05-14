@@ -12,38 +12,66 @@ docsDir = 'man'
 editLinks = true
 
 [themeConfig.locales.'/']
-selectText = '选择语言'
-label = '简体中文'
+selectText = 'Languages'
+label = 'Loading...'
 docsDir = 'man'
+editLinkText = 'Edit this page on GitHub'
+lastUpdated = 'Last Updated'
+
+[themeConfig.locales.'/zh-cn/']
+selectText = '语言选择'
+label = '简体中文'
+docsDir = 'man/zh-cn'
 editLinkText = '帮助我们完善这个页面'
 lastUpdated = '最后更新'
 
-[[themeConfig.locales.'/'.nav]]
+[[themeConfig.locales.'/zh-cn/'.nav]]
 text = 'Storehouse Management'
-link = '/'
-[[themeConfig.locales.'/'.nav]]
-text = 'Web API'
-link = '/api/'
+link = '/zh-cn/'
+[[themeConfig.locales.'/zh-cn/'.nav]]
+text = 'API'
+link = '/zh-cn/api/'
 
-[themeConfig.locales.'/'.sidebar]
-'/' = [
-  '/',
+[themeConfig.locales.'/zh-cn/'.sidebar]
+'/zh-cn/' = [
+  '/setup',
+  '/faq',
+  '/report',
+  '/dir',
+  '/env',
+  '/build',
+  '/versions',
+  '/upgrade-guide',
+  '/change-log',
+  '/update-sources',
+  '/cdn',
+  '/oauth',
+  '/ucenter',
+  '/flarum',
 ]
 
-[themeConfig.locales.'/en/']
+'/zh-cn/api/' = [
+  '/zh-cn/api/basis',
+  '/zh-cn/api/oauth',
+  '/zh-cn/api/auth',
+  '/zh-cn/api/user',
+]
+[themeConfig.locales.'/en-us/']
 selectText = 'Languages'
 label = 'English'
-docsDir = 'man/en'
+docsDir = 'man/en-us'
 editLinkText = 'Edit this page on GitHub'
 lastUpdated = 'Last Updated'
+
+[themeConfig.locales.'/en-us/'.sidebar]
 sidebar = [
-  '/en/setup',
-  '/en/faq',
-  '/en/report',
-  '/en/dir',
-  '/en/build',
-  '/en/upgrade-guide',
-  '/en/change-log',
-  '/en/versions',
-  '/en/ucenter',
+  '/en-us/setup',
+  '/en-us/faq',
+  '/en-us/report',
+  '/en-us/dir',
+  '/en-us/build',
+  '/en-us/upgrade-guide',
+  '/en-us/change-log',
+  '/en-us/versions',
+  '/en-us/ucenter',
 ]
