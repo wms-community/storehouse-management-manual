@@ -57,6 +57,9 @@ export default defineUserConfig({
       '/en-us/': {
         navbar: navbar.en,
         sidebar: sidebar.en,
+        selectLanguageName: 'English',
+        selectLanguageText: 'Language',
+        selectLanguageAriaLabel: 'Language',
         editLinkText: 'Edit this page on GitHub',
       },
     },
