@@ -7,8 +7,8 @@ module.exports = {
     },
     '/en-us': {
       lang: 'en-US',
-      title: 'Storehouse Management 用户手册',
-      description: 'Storehouse Management 用户手册',
+      title: 'Storehouse Management Manual',
+      description: 'Storehouse Management Manual',
     },
   },
 }
