@@ -29,21 +29,19 @@ export default defineUserConfig({
     repo: 'wms-community/storehouse-management-manual',
     docsDir: 'post',
     locales: {
+      
       '/': {
         navbar: navbar.zh,
+        sidebar: sidebar.zh,
         selectLanguageName: '简体中文',
         selectLanguageText: '选择语言',
         selectLanguageAriaLabel: '选择语言',
-        sidebar: sidebar.zh,
-        
         editLinkText: '帮助我们完善这个页面',
         lastUpdatedText: '最后更新',
         contributorsText: '贡献者',
-
         tip: '提示',
         warning: '警告',
         danger: '危险',
-
         notFound: [
           '这里什么都没有',
           '我们怎么到这来了？',
@@ -60,8 +58,6 @@ export default defineUserConfig({
         navbar: navbar.en,
         sidebar: sidebar.en,
         editLinkText: 'Edit this page on GitHub',
-        sidebar: sidebar.en,
-        
       },
     },
     
