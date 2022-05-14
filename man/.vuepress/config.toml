@@ -23,17 +23,4 @@ link = '/'
 
 [themeConfig.locales.'/'.sidebar]
 '/' = [
-  '/setup',
-  '/faq',
-  '/report',
-  '/env',
-  '/build',
-  '/versions',
-  '/upgrade-guide',
-  '/change-log',
-  '/update-sources',
-  '/cdn',
-  '/oauth',
-  '/ucenter',
-  '/flarum',
 ]
