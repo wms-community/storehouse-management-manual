@@ -1,6 +1,6 @@
-# Blessing Skin 手册
+# Storehouse Management 手册
 
-欢迎使用 Blessing Skin！
+欢迎使用 Storehouse Management！
 
 要开始安装？请阅读 [安装指南](/setup.md)。
 
