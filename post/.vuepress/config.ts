@@ -16,7 +16,7 @@ export default defineUserConfig({
       description: 'Storehouse Management 用户手册',
     },
     
-    '/en-US/': {
+    '/en/': {
       lang: 'en-US',
       title: 'Storehouse Management Manual',
       description: 'Storehouse Management Manual',
@@ -55,7 +55,7 @@ export default defineUserConfig({
         toggleSidebar: '切换侧边栏',
       },
 
-      '/en-us/': {
+      '/en/': {
         navbar: navbar.en,
         sidebar: sidebar.en,
         selectLanguageName: 'English',
