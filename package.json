@@ -2,7 +2,7 @@
   "name": "storehouse-management-manual",
   "version": "0.0.0",
   "repository": "https://github.com/wms-community/storehouse-management-manual",
-  "author": "SANYIMOE",
+  "author": "The Storehouse Management Community",
   "license": "Apache-2.0",
   "private": true,
   "scripts": {
