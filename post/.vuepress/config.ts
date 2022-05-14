@@ -126,13 +126,5 @@ export default defineUserConfig({
         },
       },
     }),
-    googleAnalyticsPlugin({
-      id: process.env.DOCS_GA_ID ?? '',
-    }),
-    registerComponentsPlugin({
-      componentsDir: path.resolve(__dirname, './components'),
-    }),
-    // only enable shiki plugin in production mode
-    isProd ? shikiPlugin({ theme: 'dark-plus' }) : [],
   ],
 })
