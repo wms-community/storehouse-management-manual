@@ -3,7 +3,7 @@ evergreen = true
 
 [locales]
 '/' = { lang = 'zh-CN', title = 'Storehouse Management 用户手册' }
-'/en/' = { lang = 'en-US', title = 'Storehouse Management Manual' }
+'/en-us/' = { lang = 'en-US', title = 'Storehouse Management Manual' }
 
 [themeConfig]
 repo = 'wms-community/storehouse-management-manual'
