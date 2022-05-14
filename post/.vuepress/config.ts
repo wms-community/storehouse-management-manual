@@ -1,4 +1,4 @@
-import { defineUserConfig } from '@vuepress/cli'
+import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
 import { path } from '@vuepress/utils'
 import { navbar, sidebar } from './configs'
