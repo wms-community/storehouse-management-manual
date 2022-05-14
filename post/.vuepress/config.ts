@@ -14,6 +14,7 @@ export default defineUserConfig({
       title: 'Storehouse Management 用户手册',
       description: 'Storehouse Management 用户手册',
     },
+    
     '/en-US/': {
       lang: 'en-US',
       title: 'Storehouse Management Manual',
@@ -33,14 +34,8 @@ export default defineUserConfig({
         selectLanguageName: '简体中文',
         selectLanguageText: '选择语言',
         selectLanguageAriaLabel: '选择语言',
-      },
-
-      '/en-us/': {
-        navbar: navbar.en,
-        sidebar: sidebar.en,
-        editLinkText: 'Edit this page on GitHub',
         sidebar: sidebar.zh,
-
+        
         editLinkText: '帮助我们完善这个页面',
         lastUpdatedText: '最后更新',
         contributorsText: '贡献者',
@@ -60,11 +55,15 @@ export default defineUserConfig({
         toggleDarkMode: '切换夜间模式',
         toggleSidebar: '切换侧边栏',
       },
-    },
 
-    themePlugins: {
-      git: isProd,
-      prismjs: !isProd,
+      '/en-us/': {
+        navbar: navbar.en,
+        sidebar: sidebar.en,
+        editLinkText: 'Edit this page on GitHub',
+        sidebar: sidebar.en,
+        
+      },
     },
+    
   }),
 })
