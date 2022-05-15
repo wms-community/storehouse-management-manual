@@ -31,6 +31,8 @@ children = [
 [themeConfig.locales.'/'.sidebar]
 '/' = [
   '/zh/install',
+  '/zh/env',
+  '/zh/faq',
 ]
 
 [themeConfig.locales.'/en/']
