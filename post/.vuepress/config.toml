@@ -21,16 +21,10 @@ lastUpdated = '最后更新'
 [[themeConfig.locales.'/'.nav]]
 text = 'Storehouse Management'
 link = '/'
-//[[themeConfig.locales.'/'.nav]]
-//text = 'API'
-//link = '/api/'
 
 [themeConfig.locales.'/'.sidebar]
-//'/api/' = [
-//  '/api/basis',
-//]
 '/' = [
-//  '/setup',
+  '/zh/install',
 ]
 
 [themeConfig.locales.'/en/']
@@ -40,5 +34,5 @@ docsDir = 'post/en'
 editLinkText = 'Edit this page on GitHub'
 lastUpdated = 'Last Updated'
 sidebar = [
-//  '/en/setup',
+  
 ]
