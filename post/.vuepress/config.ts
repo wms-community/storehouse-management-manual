@@ -5,7 +5,7 @@ import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { defaultTheme } from '@vuepress/theme-default'
 import { path } from '@vuepress/utils'
-import { head, navbarEn, navbarZh, sidebarEn, sidebarZh } from './configs'
+import { head, navbar, sidebar } from './configs'
 
 const isProd = process.env.NODE_ENV === 'production'
 
