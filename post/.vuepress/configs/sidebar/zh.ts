@@ -3,7 +3,7 @@ import type { SidebarConfig } from '@vuepress/theme-default'
 export const zh: SidebarConfig = {
   '/': [
     {
-      text: 'Storehouse Management 手册',
+      text: '构建&安装&升级',
       children: [
         '/install.html',
       ],
