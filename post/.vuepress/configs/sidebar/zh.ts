@@ -3,9 +3,9 @@ import type { SidebarConfig } from '@vuepress/theme-default'
 export const zh: SidebarConfig = {
   '/': [
     {
-      text: 'V0.0.1',
+      text: 'dev',
       children: [
-        '/zh/install.html',
+        '/zh/dev/install.html',
       ],
     },
   ],
