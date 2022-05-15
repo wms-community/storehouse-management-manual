@@ -18,7 +18,7 @@ Storehouse Management 只支持 Nginx 或 Apache 作为 Web 服务器，不支�
 
 ### 其它
 
-Storehouse Management 有自带一些运行时环境检查（报错以 `[Error]` 开头），遇到这种情况就说明你的环境不符合需求。
+Storehouse Management 有自带一些运行时环境检查（报错以 `[Error]` 开头），遇到这种情况就说明你的环境不符合需求(环境验证功能开发中)。
 
 ::: tip 建议
 
