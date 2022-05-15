@@ -1,6 +1,5 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from '@vuepress/cli'
-import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { defaultTheme } from '@vuepress/theme-default'
 import { path } from '@vuepress/utils'
 import { head, navbar, sidebar } from './configs'
@@ -66,6 +65,6 @@ export default defineUserConfig({
   }),
   
   plugins: [
-    isProd ? shikiPlugin({ theme: 'dark-plus' }) : [],
+    
   ],
 })
