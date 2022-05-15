@@ -30,6 +30,7 @@ export default defineUserConfig({
     repo: 'wms-community/storehouse-management-manual',
     docsBranch: 'master',
     docsDir: 'post',
+    editLinks: true,
     locales: {
       
       '/': {
