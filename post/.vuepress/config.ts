@@ -1,6 +1,5 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from '@vuepress/cli'
-import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { defaultTheme } from '@vuepress/theme-default'
@@ -36,6 +35,7 @@ export default defineUserConfig({
     docsBranch: 'master',
     docsDir: 'post',
     editLinks: true,
+    
     locales: {
       
       '/': {
@@ -64,6 +64,13 @@ export default defineUserConfig({
         editLinkText: 'Edit this page on GitHub',
       },
     },
-    
   }),
+  
+  plugins: [
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, './components'),
+    }),
+    // only enable shiki plugin in production mode
+    isProd ? shikiPlugin({ theme: 'dark-plus' }) : [],
+  ],
 })
