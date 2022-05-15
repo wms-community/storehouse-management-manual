@@ -28,6 +28,7 @@ export default defineUserConfig({
 
   theme: defaultTheme({
     repo: 'wms-community/storehouse-management-manual',
+    docsBranch: 'master',
     docsDir: 'post',
     locales: {
       
