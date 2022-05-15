@@ -3,9 +3,9 @@ import type { SidebarConfig } from '@vuepress/theme-default'
 export const zh: SidebarConfig = {
   '/': [
     {
-      text: '构建&安装&升级',
+      text: 'V0.0.1',
       children: [
-        '/zh/build&install&update/install.html',
+        '/zh/install.html',
       ],
     },
   ],
