@@ -5,7 +5,7 @@ export const zh: SidebarConfig = {
     {
       text: '安装指南',
       children: [
-        '/install.md',
+        '/install.html',
       ],
     },
   ],
