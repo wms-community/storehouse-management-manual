@@ -5,7 +5,7 @@ export const zh: SidebarConfig = {
     {
       text: '构建&安装&升级',
       children: [
-        '/install.html',
+        '/zh/build&install&update/install.html',
       ],
     },
   ],
