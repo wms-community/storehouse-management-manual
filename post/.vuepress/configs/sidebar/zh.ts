@@ -6,6 +6,7 @@ export const zh: SidebarConfig = {
       text: 'dev',
       children: [
         '/zh/dev/install.html',
+        '/zh/dev/faq.html',
       ],
     },
   ],
