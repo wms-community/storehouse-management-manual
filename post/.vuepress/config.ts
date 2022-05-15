@@ -68,3 +68,12 @@ export default defineUserConfig({
     
   }),
 })
+
+module.exports = {
+  plugins: [
+    gitPlugin({
+      lastUpdated: true,
+      contributors: false,
+    }),
+  ],
+}
