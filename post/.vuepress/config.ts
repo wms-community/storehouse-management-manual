@@ -1,8 +1,12 @@
 import { viteBundler } from '@vuepress/bundler-vite'
+import { webpackBundler } from '@vuepress/bundler-webpack'
 import { defineUserConfig } from '@vuepress/cli'
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { defaultTheme } from '@vuepress/theme-default'
 import { path } from '@vuepress/utils'
-import { navbar, sidebar } from './configs'
+import { head, navbarEn, navbarZh, sidebarEn, sidebarZh } from './configs'
 
 const isProd = process.env.NODE_ENV === 'production'
 
