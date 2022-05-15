@@ -26,6 +26,7 @@ link = '/'
 '/' = [
   '/zh/install',
   '/zh/faq',
+  '/zh/report',
   '/zh/env',
 ]
 
