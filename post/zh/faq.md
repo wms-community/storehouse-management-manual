@@ -12,19 +12,19 @@
 
 ## 配置文件 `.env` 在哪？
 
-请仔细阅读 [配置文件介绍](/zh/dev/env.md)
+请仔细阅读 [配置文件介绍](/zh/env.md)
 
 ## 目录下没有 `install` 这个文件夹啊，怎么访问？
 
 Storehouse Management 使用了 URL 重写来实现路由功能。
 
-一般来说，只要您按照 [安装指南](/zh/dev/install.md#配置-url-重写规则（伪静态）) 正确配置了 URL 重写之后，您就能正常安装和使用 Storehouse Management。
+一般来说，只要您按照 [安装指南](/zh/install.md#配置-url-重写规则（伪静态）) 正确配置了 URL 重写之后，您就能正常安装和使用 Storehouse Management。
 
 ## 提示「根目录下没有 `vendor` 文件夹」？
 
 有两种解决方法：
 
-1. 给我认认真真地再看一遍 [安装指南](/zh/dev/install.md)
+1. 给我认认真真地再看一遍 [安装指南](/zh/install.md)
 2. 自己使用 Composer 安装依赖库
 
 ## 出现 500 Internal Server Error
