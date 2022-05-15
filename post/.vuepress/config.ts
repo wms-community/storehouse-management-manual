@@ -7,10 +7,10 @@ import { navbar, sidebar } from './configs'
 const isProd = process.env.NODE_ENV === 'production'
 
 export default defineUserConfig({
-  base: '/zh/',
+  base: '/',
 
   locales: {
-    '/zh/': {
+    '/': {
       lang: 'zh-CN',
       title: 'Storehouse Management 用户手册',
       description: 'Storehouse Management 用户手册',
@@ -31,7 +31,7 @@ export default defineUserConfig({
     docsDir: 'post',
     locales: {
       
-      '/zh/': {
+      '/': {
         navbar: navbar.zh,
         sidebar: sidebar.zh,
         selectLanguageName: '简体中文',
