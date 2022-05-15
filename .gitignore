@@ -1,5 +1,7 @@
 node_modules/
-man/.vuepress/dist
+.temp
+.cache
+post/.vuepress/dist
 yarn.lock
 pnpm-lock.yaml
 .vercel
