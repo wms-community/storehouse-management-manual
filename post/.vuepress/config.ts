@@ -4,6 +4,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { path } from '@vuepress/utils'
 import { navbar, sidebar } from './configs'
 
+const { gitPlugin } = require('@vuepress/plugin-git')
 const isProd = process.env.NODE_ENV === 'production'
 
 export default defineUserConfig({
