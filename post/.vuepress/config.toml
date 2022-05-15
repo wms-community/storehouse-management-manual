@@ -22,6 +22,12 @@ lastUpdated = '最后更新'
 text = 'Storehouse Management'
 link = '/'
 
+[[themeConfig.locales.'/'.nav]]
+text = 'Version'
+children = [
+          
+        ]
+
 [themeConfig.locales.'/'.sidebar]
 '/' = [
   '/zh/install',
