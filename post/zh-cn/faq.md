@@ -33,7 +33,7 @@ Storehouse Management 使用了 URL 重写来实现路由功能。
 
 如果有，请编辑 `.env` 文件，添加 `APP_DEBUG = true`，保存退出后再次打开系统就能看到更详细的调试信息，读一读页面最顶上的报错应该就知道是什么问题了。
 
-::: warning
+::: warning 警告：
 
 解决报错后，请再次编辑 `.env` 文件，将 `APP_DEBUG` 这一项的值改为 `false`，否则可能泄露重要机密信息。
 
