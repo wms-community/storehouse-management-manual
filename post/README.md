@@ -10,6 +10,7 @@
   <a href="/en-us/"><button style="width:200px;height:50px;background-color:#F0F0F0;color:blue;font-size:20px;">Next</button></a>
 </center>
 
+
 <hr>
 
 Cinnamoroll warehouse management system is a station building system centered on warehouse management. It can efficiently manage multiple warehouses. It can be installed in only 5 minutes without complex settings. Cinnamoroll warehouse management system can complete the efficient management environment of system + MySQL in only 5 minutes.
