@@ -7,7 +7,7 @@
 <center>
   <a href="/zh-cn/"><button style="width:200px;height:50px;background-color:blue;color:white;font-size:20px;">开始使用</button></a>
   &nbsp;&nbsp;
-  <a href="/en-us/"><button style="width:200px;height:50px;background-color:#F0F0F0;color:blue;font-size:20px;">Next</button></a>
+  <a href="/en-us/"><button style="width:200px;height:50px;background-color:#F0F0F0;color:blue;font-size:20px;">Start</button></a>
 </center>
 
 <br>
