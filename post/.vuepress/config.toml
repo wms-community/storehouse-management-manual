@@ -1,5 +1,6 @@
 title = 'Storehouse Management 用户手册'
 evergreen = true
+base = '/'
 
 [locales]
 '/' = { lang = 'default', title = 'Storehouse Management Manual' }
