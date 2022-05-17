@@ -35,6 +35,7 @@ sidebar = [
   '/zh-cn/upgrade-guide',
   '/zh-cn/change-log',
   '/zh-cn/update-sources',
+  '/zh-cn/cdn',
 ]
 [[themeConfig.locales.'/zh-cn/'.nav]]
 text = 'Storehouse Management'
