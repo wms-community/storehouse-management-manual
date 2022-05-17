@@ -15,4 +15,4 @@ jobs:
         TARGET_BRANCH: gh_pages
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: post/.vuepress/dist
-        CNAME: https://wms.mojy.xyz
+        CNAME: https://wms.mojy.xyz/
