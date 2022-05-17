@@ -3,6 +3,7 @@
 <!-- textlint-disable terminology -->
 
 ::: vue
+
 . 
 ├── app (应用目录) 
 │   ├── controller (控制器目录) 
@@ -24,10 +25,13 @@
 ├── apache.htaccess (Apache伪静态规则文件) 
 ├── nginx.htaccess (Nginx伪静态规则文件) 
 └── index.php (系统入口文件) 
+
 :::
 
 <!-- textlint-enable -->
 
 ::: info 提示
+
 您不用担心打开后没有 '.env' 文件，此文件会在安装好后自动生成！
+
 :::
