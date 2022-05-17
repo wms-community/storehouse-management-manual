@@ -14,6 +14,7 @@ editLinks = true
 
 [themeConfig.locales.'/']
 selectText = 'Languages'
+label = 'Home'
 docsDir = 'post'
 
 [themeConfig.locales.'/zh-cn/']
