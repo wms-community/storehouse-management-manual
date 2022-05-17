@@ -30,11 +30,14 @@ sidebar = [
   '/zh-cn/report',
   '/zh-cn/dir',
   '/zh-cn/env',
+  '/zh-cn/build',
 ]
-
 [[themeConfig.locales.'/zh-cn/'.nav]]
 text = 'Storehouse Management'
 link = '/zh-cn/'
+[[themeConfig.locales.'/zh-cn/'.nav]]
+text = 'API'
+link = '/zh-cn/api/'
 
 [themeConfig.locales.'/en-us/']
 selectText = 'Languages'
