@@ -25,18 +25,19 @@ label = '简体中文'
 docsDir = 'post'
 editLinkText = '帮助我们完善这个页面'
 lastUpdated = '最后更新'
+nav = [
+  '/zh-cn/',
+]
+sidebar = [
+  '/zh-cn/install',
+  '/zh-cn/faq',
+  '/zh-cn/report',
+  '/zh-cn/env',
+]
 
 [[themeConfig.locales.'/'.nav]]
 text = 'Storehouse Management'
 link = '/'
-
-[themeConfig.locales.'/'.sidebar]
-'/' = [
-  '/zh/install',
-  '/zh/faq',
-  '/zh/report',
-  '/zh/env',
-]
 
 [themeConfig.locales.'/en-us/']
 selectText = 'Languages'
