@@ -1,5 +1,7 @@
 # 目录结构
 
+<!-- textlint-disable terminology -->
+
 ::: vue
 . 
 ├── app (应用目录) 
@@ -23,3 +25,5 @@
 ├── nginx.htaccess (Nginx伪静态规则文件) 
 └── index.php (系统入口文件) 
 :::
+
+<!-- textlint-enable -->
