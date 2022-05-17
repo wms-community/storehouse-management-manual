@@ -3,3 +3,5 @@
 <center><h1>Storehouse Management Server</h1></center>
 
 <center><h3>A PHP system for efficient management of your warehouse.</h3></center>
+
+<button>开始使用</button>&nbsp;&nbsp;<button>Next</button>
