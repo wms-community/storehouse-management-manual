@@ -4,4 +4,4 @@
 
 <center><h3>A PHP system for efficient management of your warehouse.</h3></center>
 
-<center><button style="width:100px;height:40px;">开始使用</button>&nbsp;&nbsp;<button style="width:100px;height:40px;">Next</button></center>
+<center><button style="width:100px;height:40px;background-color:skyblue;color:white;">开始使用</button>&nbsp;&nbsp;<button style="width:100px;height:40px;background-color:white;color:skyblue;">Next</button></center>
