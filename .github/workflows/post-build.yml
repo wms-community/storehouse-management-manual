@@ -4,4 +4,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      -run: sh deploy.sh
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - run: sh /deploy.sh
