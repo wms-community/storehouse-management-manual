@@ -1,7 +1,6 @@
 # 目录结构
 
 ::: vue
-
 . 
 ├── app (应用目录) 
 │   ├── controller (控制器目录) 
@@ -22,6 +21,5 @@
 ├── .htaccess (伪静态文件) 
 ├── apache.htaccess (Apache伪静态规则文件) 
 ├── nginx.htaccess (Nginx伪静态规则文件) 
-
-
+└── index.php (系统入口文件) 
 :::
