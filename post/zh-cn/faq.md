@@ -121,6 +121,6 @@ innodb_file_format=Barracuda
 
 保存并重新启动 MySQL。
 
-## 安装或升级时遇到「Table 'notifications' already exists」
+## 安装或升级时遇到「Table * already exists」
 
-打开数据库，将 `notifications` 表删除即可。
+打开数据库，删除所报错的数据表即可。
