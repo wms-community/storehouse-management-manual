@@ -2,8 +2,9 @@ title = 'Storehouse Management 用户手册'
 evergreen = true
 
 [locales]
-'/' = { lang = 'zh-CN', title = 'Storehouse Management 用户手册' }
-'/en/' = { lang = 'en-US', title = 'Storehouse Management Manual' }
+'/' = { lang = 'default', title = 'Storehouse Management Manual' }
+'/zh-cn/' = { lang = 'zh-CN', title = 'Storehouse Management 用户手册' }
+'/en-us/' = { lang = 'en-US', title = 'Storehouse Management Manual' }
 
 [themeConfig]
 repo = 'wms-community/storehouse-management-manual'
