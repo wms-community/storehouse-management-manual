@@ -25,9 +25,6 @@ label = '简体中文'
 docsDir = 'post'
 editLinkText = '帮助我们完善这个页面'
 lastUpdated = '最后更新'
-nav = [
-  '/zh-cn/',
-]
 sidebar = [
   '/zh-cn/install',
   '/zh-cn/faq',
@@ -35,9 +32,9 @@ sidebar = [
   '/zh-cn/env',
 ]
 
-[[themeConfig.locales.'/'.nav]]
+[[themeConfig.locales.'/zh-cn/'.nav]]
 text = 'Storehouse Management'
-link = '/'
+link = '/zh-cn/'
 
 [themeConfig.locales.'/en-us/']
 selectText = 'Languages'
