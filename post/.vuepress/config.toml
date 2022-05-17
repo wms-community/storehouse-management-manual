@@ -14,10 +14,7 @@ editLinks = true
 
 [themeConfig.locales.'/']
 selectText = 'Languages'
-label = 'Languages'
 docsDir = 'post'
-editLinkText = 'Edit this page on GitHub'
-lastUpdated = 'Last Updated'
 
 [themeConfig.locales.'/zh-cn/']
 selectText = '选择语言'
