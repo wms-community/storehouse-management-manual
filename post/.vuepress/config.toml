@@ -27,6 +27,7 @@ sidebar = [
   '/zh-cn/install',
   '/zh-cn/faq',
   '/zh-cn/report',
+  '/zh-cn/dir',
   '/zh-cn/env',
 ]
 
