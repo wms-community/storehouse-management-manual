@@ -54,3 +54,9 @@ lastUpdated = 'Last Updated'
 sidebar = [
   
 ]
+[[themeConfig.locales.'/en-us/'.nav]]
+text = 'Storehouse Management'
+link = '/en-us/'
+[[themeConfig.locales.'/en-us/'.nav]]
+text = 'API'
+link = '/en-us/api/'
