@@ -34,4 +34,6 @@ Please make sure your php_version>=7.2.5
 <br>
 <hr>
 
-玉桂库房管理系统用户手册
+<center>
+  玉桂库房管理系统用户手册
+</center>
