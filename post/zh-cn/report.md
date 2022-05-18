@@ -51,5 +51,4 @@
 ## 我该如何联系开发者？
 
 - GitHub Issues
-
-<iframe src="" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+- Telegram Group
