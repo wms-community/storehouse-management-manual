@@ -16,6 +16,7 @@
 │   └── ...
 │
 ├── config (系统配置目录)
+├── public (静态资源目录)
 ├── runtime (系统缓存目录)
 ├── extend (扩展类库目录)
 ├── .env.example (示例配置文件)
@@ -23,6 +24,7 @@
 ├── .htaccess (伪静态文件)
 ├── apache.htaccess (Apache伪静态规则文件)
 ├── nginx.htaccess (Nginx伪静态规则文件)
+├── install.sql (安装程序数据库)
 └── index.php (系统入口文件)
 ```
 
