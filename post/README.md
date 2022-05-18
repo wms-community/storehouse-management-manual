@@ -13,8 +13,6 @@
 <br>
 <hr>
 
-Introduction: Cinnamoroll warehouse management system is a station building system centered on warehouse management. It can efficiently manage multiple warehouses. It can be installed in only 5 minutes without complex settings. Cinnamoroll warehouse management system can complete the efficient management environment of system + MySQL in only 5 minutes.
-
-Function: it can help you manage the warehouse and support wechat official account. You can directly use the official account to manage your warehouse without opening the website.
-
-Users: we have multiple users, which is stable and fast enough.
+| Introduction | Function | Users Group |
+| ------------ | -------- | ----------- |
+| Cinnamoroll warehouse management system is a station building system centered on warehouse management. It can efficiently manage multiple warehouses. It can be installed in only 5 minutes without complex settings. Cinnamoroll warehouse management system can complete the efficient management environment of system + MySQL in only 5 minutes. | It can help you manage the warehouse and support wechat official account. You can directly use the official account to manage your warehouse without opening the website. | we have multiple users, which is stable and fast enough. |
