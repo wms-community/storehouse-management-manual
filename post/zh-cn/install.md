@@ -32,7 +32,7 @@ Storehouse Management 有自带一些运行时环境检查（报错以 `[Error]`
 
 ::: tip 提示
 
-您可以下载 `Source Code`。
+你应该下载文件名类似 `storehouse-management-server-xxx.zip` 的文件，而不是下载 `Source Code`。
 
 :::
 
