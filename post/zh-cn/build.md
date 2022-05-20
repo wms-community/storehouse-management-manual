@@ -9,16 +9,15 @@
 请先确保您安装好以下工具：
 
 - [Git](https://git-scm.org)
-- [Node.js](https://nodejs.org)
-- [Yarn](https://yarnpkg.com)
 - [Composer](https://getcomposer.org)
 - [PowerShell Core](https://github.com/PowerShell/PowerShell#get-powershell)
 
 然后执行以下命令来拉取代码：
 
 ```bash
-暂无
-
+git clone https://github.com/wms-community/storehouse-management-server.git
+cd storehouse-management-server
+composer install
 ```
 
 接下来按照 [安装指南](/zh-cn/install.md) 中的后续步骤去完成安装即可。
