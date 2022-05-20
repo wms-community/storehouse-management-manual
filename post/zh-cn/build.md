@@ -18,6 +18,7 @@
 git clone https://github.com/wms-community/storehouse-management-server.git
 cd storehouse-management-server
 composer install
+yarn
 ```
 
 接下来按照 [安装指南](/zh-cn/install.md) 中的后续步骤去完成安装即可。
