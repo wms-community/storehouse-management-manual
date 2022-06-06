@@ -3,10 +3,11 @@ home: true
 heroImage: https://s1.ax1x.com/2022/05/17/O4wwRK.jpg
 heroText: Storehouse Management Server
 tagline: A PHP system for efficient management of your warehouse.
-actionText: 快速上手 →
-actionLink: /zh-cn/
-actionText: Get Started →
-actionLink: /en-us/
+action:
+- Text: 快速上手 →
+- Link: /zh-cn/
+- Text: Get Started →
+- Link: /en-us/
 features:
 - title: Introduction
   details: Cinnamoroll warehouse management system is a station building system centered on warehouse management. It can efficiently manage multiple warehouses. It can be installed in only 5 minutes without complex settings. Cinnamoroll warehouse management system can complete the efficient management environment of system + MySQL in only 5 minutes.
